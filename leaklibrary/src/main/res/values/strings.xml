@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LeackLibrary</string>
+    <string name="time">时间：</string>
+    <string name="size">引用链内存：</string>
+</resources>
