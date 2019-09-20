@@ -19,3 +19,15 @@ public class TApplication extends Application {
     }
     
 }
+activity检测泄自动弹出信息
+
+
+Object存活检测
+
+Object o=new Object();
+ 
+ 需要回收Object的地方
+ 
+ AndroidLeak.addObserver(o);
+ 
+ 如果没有回收那么弹出引用链
