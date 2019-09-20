@@ -8,9 +8,14 @@ implementation 'com.leak.sdk.leaklibrary:androidleak:1.0.0'
 Application添加：
 
 public class TApplication extends Application {
+
     @Override
+    
     public void onCreate() {
+    
         super.onCreate();
+        
         AndroidLeak.init(this);
     }
+    
 }
